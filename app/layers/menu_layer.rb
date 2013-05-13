@@ -16,10 +16,7 @@ class MenuLayer < Joybox::Core::Layer
       director.replace_scene GameLayer.scene
     end
 
-    menu = Menu.new items:[play_label],
-                position: [Screen.half_width, 100]
-
-
+    menu = Menu.new items:[play_label], position: [Screen.half_width, 100]
     self << menu
   end
 
