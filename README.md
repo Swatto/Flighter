@@ -2,6 +2,8 @@
 
 A simple prototype game that I write in [RubyMotion](http://www.rubymotion.com/) with the [Joybox](https://github.com/rubymotion/Joybox) library. The code is looking to explore a way to create a game with an entities workflow with Joybox. Please, don't use it as a perfect way to embed that kind of goal.
 
+![img](resources/screenshot.png)
+
 ## Entity without passing args
 
 ```ruby
