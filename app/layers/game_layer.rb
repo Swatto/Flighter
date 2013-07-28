@@ -13,7 +13,7 @@ class GameLayer < Joybox::Core::Layer
     $score = 0
 
     bg = Sprite.new file_name: "bg.jpg", position:[Screen.half_width,Screen.half_height]
-    #self << bg
+    self << bg
 
     @player = PlayerEntity.alloc.initWithWorld self.world
     self << @player.sprite
